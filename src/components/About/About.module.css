@@ -1,6 +1,7 @@
 .about {
-    min-height: calc(100vh - 121px);
-    padding: 30px;
+    min-height: calc(100vh - 121px);display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container {
     justify-content: space-around;
@@ -9,16 +10,15 @@
 .aboutText {
     display: flex;
     flex-direction: column;
-    color: white;
-    max-width: 330px;
+    max-width: 370px;
 }
-.aboutText p:first-of-type {
-    font-size: 1.1rem;
+.aboutText p:first-child {
+    font-size: 1.8rem;
 }
 .aboutText h1 {
     color: #e38443;
     margin: 0;
-    font-size: 3.5rem;
+    font-size: 5.5rem;
 }
 .aboutText a {
     width: 170px;
@@ -36,6 +36,7 @@
     width: 350px;
     height: 500px;
     background-color: white;
+    border-radius: 10px;
 }
 /*.aboutPhoto img {*/
 /*    width: 300px;*/

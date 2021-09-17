@@ -21,9 +21,9 @@ export function Navbar() {
     ]
 
     return (
-        <div className={s.navbar}>
+        <nav className={s.navbar}>
             {navbarItems.map(item => <NavbarItem key={item.id} title={item.title} path={item.path} />)}
-        </div>
+        </nav>
     );
 }
 

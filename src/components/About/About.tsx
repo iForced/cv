@@ -5,7 +5,7 @@ import container from '../../common/styles/Container.module.css';
 export function About() {
 
     return (
-        <div className={s.about}>
+        <main className={s.about}>
             <div className={container.container + ' ' + s.container}>
                 <div className={s.aboutText}>
                     <p>Привет. Меня зовут</p>
@@ -18,7 +18,7 @@ export function About() {
                     {/*<img src="#" alt="It's me"/>*/}
                 </div>
             </div>
-        </div>
+        </main>
     );
 }
 
