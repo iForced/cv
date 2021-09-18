@@ -48,9 +48,18 @@ export function Skills() {
 
     return (
         <section className={s.skills}>
+            {/*TODO перенести тайтл внутрь контейнера и правильно спозионировать флексами*/}
             <h3 className={s.skillsHeader}>My technology stack</h3>
             <div className={container.container + ' ' + s.container}>
-                {skills.map(s => <Skill key={s.id} title={s.title} text={s.text} icon={s.icon} />)}
+                {
+                    skills.map(s =>
+                        <Skill
+                            key={s.id}
+                            title={s.title}
+                            text={s.text}
+                            icon={s.icon}
+                        />)
+                }
             </div>
         </section>
     );
