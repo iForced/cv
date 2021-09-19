@@ -1,0 +1,23 @@
+.footer {
+    background-color: #313131;
+    padding: 10px 0;
+}
+.container {
+    justify-content: space-between;
+    align-items: center;
+}
+.footerTitle {
+    color: #e38443;
+    max-width: 500px;
+}
+.footerSocials {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.footerSocials svg {
+    transition: .3s ease-out;
+}
+.footerSocials svg:hover {
+    fill: #e38443;
+}

@@ -19,13 +19,13 @@
     gap: 20px;
     width: 800px;
     background-color: #313131;
-    padding: 20px 40px;
+    padding: 20px 80px;
     border-radius: 20px;
     box-shadow: 11px 10px 38px rgba(0, 0, 0, 0.38);
 }
 .contactsForm input,
 .contactsForm textarea {
-    padding: 15px 10px;
+    padding: 20px 30px;
     border-radius: 30px;
     width: 100%;
     font-size: 1.5rem;

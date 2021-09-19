@@ -21,7 +21,7 @@ const works: Array<WorkType> = [
 const studies = [
     {id: v1(), time: 'Dec 2020', course: 'Some free courses of base HTML, CSS, JavaScript', descr: 'Learn base of frontend technologies'},
     {id: v1(), time: 'Feb 2021', course: 'Student of The Rolling Scopes school', descr: 'Made simple applications on basic JavaScript, practiced responsive layout of web pages, studied TypeScript'},
-    {id: v1(), time: 'Aug 2020', course: 'Student of IT-Incubator', descr: 'Learning React. Creating a SPA using functional components and hooks. Deepening my knowledge in TypeScript. Learning Redux'},
+    {id: v1(), time: 'Aug 2020', course: 'Student of IT-Incubator', descr: 'Learning React. Creating a SPA using functional/class components and hooks. Deepening my knowledge in TypeScript. Learning Redux'},
 ]
 
 export function Experience() {
