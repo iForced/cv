@@ -11,7 +11,7 @@ export function NavbarItem(props: PropsType) {
 
     return (
         <div className={s.navbarItem}>
-            <NavLink to={props.path} className={s.itemLink} activeClassName={s.activeLink}>{props.title}</NavLink>
+            <NavLink to={props.path} exact className={s.itemLink} activeClassName={s.activeLink}>{props.title}</NavLink>
         </div>
     );
 }

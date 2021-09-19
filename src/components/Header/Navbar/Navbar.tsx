@@ -12,7 +12,7 @@ type NavbarItemType = {
 export function Navbar() {
 
     const navbarItems: Array<NavbarItemType> = [
-        {id: v1(), title: 'Home', path: '/home'},
+        {id: v1(), title: 'Home', path: '/'},
         {id: v1(), title: 'About me', path: '/about'},
         {id: v1(), title: 'My skills', path: '/skills'},
         {id: v1(), title: 'My Works', path: '/works'},
