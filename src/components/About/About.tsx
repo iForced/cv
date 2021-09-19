@@ -15,7 +15,7 @@ export function About() {
                     <a href="/">Связаться со мной</a>
                 </div>
                 <div className={s.aboutPhoto}>
-                    {/*<img src="#" alt="It's me"/>*/}
+                    <img src="/images/about/photo.jpg" alt="It's me"/>
                 </div>
             </div>
         </main>
