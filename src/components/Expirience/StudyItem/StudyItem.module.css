@@ -1,0 +1,12 @@
+.studyItem {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.studyItemContent {
+    background-color: #262626;
+    border-radius: 10px;
+    padding: 5px 10px;
+    width: 100%;
+}
