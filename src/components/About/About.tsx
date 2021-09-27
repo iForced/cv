@@ -8,10 +8,10 @@ export function About() {
         <main className={s.about}>
             <div className={container.container + ' ' + s.container}>
                 <div className={s.aboutText}>
-                    <p>Привет. Меня зовут</p>
-                    <h1>Илья Орсич</h1>
+                    <p>Hello. I am</p>
+                    <h1>Ilya Orsich</h1>
                     <h3>Frontend developer</h3>
-                    <p>Я занимаюсь разработкой web приложений на React</p>
+                    <p>I build single page applications using ReactJS</p>
                     <a href="/">Связаться со мной</a>
                 </div>
                 <div className={s.aboutPhoto}>
