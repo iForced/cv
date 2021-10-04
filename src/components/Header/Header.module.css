@@ -15,7 +15,7 @@
     transition: .2s all;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 770px) {
 
     .container {
         justify-content: flex-start;

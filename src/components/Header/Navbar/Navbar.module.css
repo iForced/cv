@@ -5,7 +5,7 @@
     padding: 20px 0;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 770px) {
 
     .navbar {
         display: none;

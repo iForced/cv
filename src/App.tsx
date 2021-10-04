@@ -19,7 +19,7 @@ export function App() {
                 <Skills />
                 <Projects />
                 <Experience />
-                {/*<Contacts />*/}
+                <Contacts />
                 <Footer />
             </BrowserRouter>
         </div>
