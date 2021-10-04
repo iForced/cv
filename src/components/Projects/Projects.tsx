@@ -18,19 +18,19 @@ export function Projects() {
         {
             id: v1(), title: 'Social network',
             descr: 'React - кабзда как просто (специальный созданный для студентов инкубатора концептуально-практический курс по React+Redux)',
-            image: '/images/projects/social_network.png',
+            image: 'images/projects/social_network.png',
             path: 'https://github.com/iForced/socialNetwork'
         },
         {
             id: v1(), title: 'TODO list',
             descr: 'React - кабзда как просто (специальный созданный для студентов инкубатора концептуально-практический курс по React+Redux)',
-            image: '/images/projects/todolist.png',
+            image: 'images/projects/todolist.png',
             path: 'https://github.com/iForced/todoList'
         },
         {
             id: v1(), title: 'Counter',
             descr: 'React - кабзда как просто (специальный созданный для студентов инкубатора концептуально-практический курс по React+Redux)',
-            image: '/images/projects/counter.png',
+            image: 'images/projects/counter.png',
             path: 'https://github.com/iForced/counter'
         },
     ]

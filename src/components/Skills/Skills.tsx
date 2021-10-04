@@ -17,32 +17,32 @@ export function Skills() {
         {
             id: v1(), title: 'HTML',
             text: 'I use semantic markup when writing the structure of the applications',
-            icon: '/images/skills/html5.png'
+            icon: 'images/skills/html5.png'
         },
         {
             id: v1(), title: 'CSS/SASS',
             text: 'Make adaptive page layout. Also use SASS preprocessor',
-            icon: '/images/skills/css3.png'
+            icon: 'images/skills/css3.png'
         },
         {
             id: v1(), title: 'JavaScript',
             text: 'I have confident knowledge of native JavaScript',
-            icon: '/images/skills/javascript.png'
+            icon: 'images/skills/javascript.png'
         },
         {
             id: v1(), title: 'TypeScript',
             text: 'In my projects I use TypeScript, because knowledge of TS is an essential part of frontend developing today',
-            icon: '/images/skills/typescript.png'
+            icon: 'images/skills/typescript.png'
         },
         {
             id: v1(), title: 'React',
             text: 'I use React to render user interfaces. I have knowledge of React Hooks, use class and functional components',
-            icon: '/images/skills/react.png'
+            icon: 'images/skills/react.png'
         },
         {
             id: v1(), title: 'Redux',
             text: 'For state management I use redux. To interact with React, I use react-redux library',
-            icon: '/images/skills/redux.png'
+            icon: 'images/skills/redux.png'
         },
     ]
 

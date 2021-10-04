@@ -12,7 +12,7 @@ export function StudyItem(props: PropsType) {
     return (
         <li className={s.studyItem}>
             <div className={s.studyItemMarker}>
-                <img src="/images/experiences/list_item.svg" alt="list item"/>
+                <img src="images/experiences/list_item.svg" alt="list item"/>
             </div>
             <div className={s.studyItemContent}>
                 <h5 className={s.time}>{props.time}</h5>

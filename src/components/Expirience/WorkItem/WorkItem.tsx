@@ -13,7 +13,7 @@ export function WorkItem(props: PropsType) {
         //TODO сделать общий сить для itemMarker
         <li className={s.workItem}>
             <div className={s.workItemMarker}>
-                <img src="/images/experiences/list_item.svg" alt="list item"/>
+                <img src="images/experiences/list_item.svg" alt="list item"/>
             </div>
             <div className={s.workItemContent}>
                 <h5 className={s.time}>{props.time}</h5>
