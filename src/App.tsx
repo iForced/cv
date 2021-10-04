@@ -18,8 +18,8 @@ export function App() {
                 <About />
                 <Skills />
                 <Projects />
-                <Experience />
-                <Contacts />
+                {/*<Experience />*/}
+                {/*<Contacts />*/}
                 <Footer />
             </BrowserRouter>
         </div>

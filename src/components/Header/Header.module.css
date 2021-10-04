@@ -1,3 +1,59 @@
 .header {
     background-color: rgba(38, 38, 38, 0.55);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    box-shadow: 6px 6px 38px 5px rgb(0 0 0 / 38%);
+}
+.menu {
+    display: none;
+}
+.menuItems {
+    display: none;
+    transition: .2s all;
+}
+
+@media (max-width: 750px) {
+
+    .container {
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        margin: 5px;
+    }
+    .menu::before,
+    .menu::after {
+        content: '';
+        background-color: #e38443;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+    }
+    .menu::before {
+        top: 0;
+    }
+    .menu::after {
+        bottom: 0;
+    }
+    .menu span {
+        position: absolute;
+        background-color: #e38443;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+    }
+    .menuItems {
+        display: flex;
+        flex-direction: column;
+    }
 }

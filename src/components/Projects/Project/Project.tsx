@@ -14,7 +14,7 @@ export function Project(props: PropsType) {
         <div className={s.project}>
             <div className={s.projectImage}>
                 {/*TODO сделать кнопки перехода к проектам на всю картинку с затемнением*/}
-                <a href={props.path} target='_blank'><span className={s.projectButton}>Посмотреть</span></a>
+                <a href={props.path} target='_blank' rel="noreferrer"><span className={s.projectButton}>Посмотреть</span></a>
                 <img src={props.image} alt={props.title}/>
             </div>
             <h5 className={s.projectTitle}>{props.title}</h5>

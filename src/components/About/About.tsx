@@ -1,6 +1,6 @@
 import React from 'react';
-import s from './About.module.css';
 import container from '../../common/styles/Container.module.css';
+import s from './About.module.css';
 
 export function About() {
 
