@@ -5,7 +5,7 @@ import s from './Footer.module.css';
 export function Footer() {
 
     return (
-        <div className={s.footer}>
+        <footer className={s.footer}>
             <div className={container.container + ' ' + s.container}>
                 <h5 className={s.footerTitle}>
                     © Ilya Orsich. All right reserved. You have the right to remain silent. Anything you say can and
@@ -51,7 +51,7 @@ export function Footer() {
                     </a>
                 </div>
             </div>
-        </div>
+        </footer>
     );
 }
 

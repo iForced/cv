@@ -36,7 +36,7 @@ export function Projects() {
     ]
 
     return (
-        <div className={s.projects}>
+        <section className={s.projects}>
             <div className={container.container + ' ' + s.container}>
                 <h3 className={s.projectsTitle}>There is my projects</h3>
                 <div className={s.projectsItems}>
@@ -52,7 +52,7 @@ export function Projects() {
                     }
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 
