@@ -9,7 +9,6 @@ export function Contacts() {
             <div className={container.container + ' ' + s.container}>
                 <h3 className={s.contactsTitle}>Contact me</h3>
                 <form className={s.contactsForm}>
-                    {/*TODO поправить ширину инпутов в форме*/}
                     <div className={s.name}>
                         <input type="text" placeholder="Your name"/>
                     </div>
